@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Jacqueline Torres">
+    <meta name="description" content="Mi visión a futuro">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Jacqueline Torres| The life is starting.</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/IMAGE JAC.jpeg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/IMAGE JAC.jpeg" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Acerca de mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Aprender un nuevo idima</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Mi proceso en formación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/IMAGE JAC.jpeg" alt="Foto de Jacqueline">
+        <h1>Hola, soy Jacqueline Torres. </h1>
+       <h2>El pasado no puede ser cambiado. El futuro está aún en tu poder.</h2> 
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/collage jac.jpg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo"> Un poco acerca de mí</h2>
+        <p class="seccion-texto"> Mi nombre es Jacqueline Torres Arroyo, tengo 19 años de edad. Soy originaria de Balderrama, Guerrero, México. Actualmente vivo en Tejupilco de HIdalgo, México, México. Estoy estudiando el cuarto cuatrimestre de la carrera T.S.U. en Lengua Inglesa en la Uvivesidad Tecnológica del Sur del Estado de México. Me gusta salir y conocer nuevos lugares, hacer activación física, dibujar, pintar, aprender nuevas cosas, pasar tiempo de calidad con mis seres queridos, manejar moto, entre muchas otras cosas. Soy una chica optimista, responsable, dedicada, creativa, empatica, por mencionar algunos de estos.</em></p>
+      </div>
+    </section>
+    <section id="videouno" class="videoprincipal"> 
+      <video src="imagenes/video1.mp4" width="600" height="600" text-aligen="" autoplay controls>About me</video>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Meta 1</p>
+            <p>Terminar de estudiar la Universidad, prepararme profesionalmente en el idioma Inglés y dominarlo lo más posible, completar certificaciones en el idioma que me den valor curricular. </p>
+            <p>De igual manera, continuar preparándome profesionalmente, tomando más cursos para obtener certificaciones que me servirán en el ámbito laboral  .</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Estudio</span>
+              <span class="badge text-bg-primary">Superación personal</span>
+              <span class="badge text-bg-primary">Éxito</span>
+              <span class="badge text-bg-primary">Motivación</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Meta 2</p>
+            <p>Tomar un curso de azafáta, donde el idioma Inglés me permitirá para desenvolverme en el área de concimiento y práctica.</p>
+            <p>Completado el curso, comenzar a laborar en el arepuerto como Azafáta siendo constante y completamente responsable.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Aprendizaje</span>
+              <span class="badge text-bg-primary">Practica</span>
+              <span class="badge text-bg-primary">profesionalismo</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Meta 3</p>
+            <p> Trabajar haciendo lo que me gusta, ser independiente, tener estabilidad económica, obtener mis propios bienes materiales, viajar, apoyar a quienes estuvieron constantes conmigo en mi proceso.</p>
+            <p> Y principalmente estar muy orgullosa de quien soy.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Paz</span>
+              <span class="badge text-bg-primary">Felicidad</span>
+              <span class="badge text-bg-primary">Triunfo</span>
+              <span class="badge text-bg-primary">Amor</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Aprender un nuevo idioma </h2>
+      <h3 class="seccion-descripcion">Aquí dejo mi punto de vista...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/aplicaciones-ingles-2994210.webp" alt="L1">
+              <p>Conocer otro idioma nos permite relacionarnos con personas de otros paises, nos da la posibilidad de vivir, estudiar o trabajar en el extranjero, además agiliza la memoria y concentración, entre más idiomas vamos adquiriendo más habilidades de aprendizaje desarrollamos.</p>
+              <div class="overlay">
+                <p>Ventajas de aprender un nuevo idioma...</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/OIP (1).jpg" alt="k1">
+                            <p>Mejor toma de decisiones,
+                              aumento de la memoria,
+                              reduce la posibilidad de enfermedades mentales, brinda crecimiento profesional ofreciendote un sin fin de oportunidades en ámbito turistico y docente. </p>
+              <div class="overlay">
+                <p>Los principales beneficios de aprender un nuevo idioma...</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/image 2.webp" alt="Proyecto 3">
+              <p>Estudiar la carrera de Lengua Inglesa en la UTSEM, además de aprender el idioma Inglés, te prepara profesionalemnte para ser docene del idioma ya mencionado, mencionando también que la Licenciatura en Gestión Institucional Educativa y Curricular te abre las puertas para el área empresarial, donde de la mano con el Inglés, puedes conseguir un buen puesto de laboral. </p>
+              <div class="overlay">
+                <p>Estudiar Lengua Inglesa en la UTSEM...</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/reading.png" alt="Proyecto 4">
+              <p>Ve películas y series, este consejo te permite pasar un rato de ocio mientras estudias inglés, además te ayuda a conocer expresiones típicas.
+                Escucha música, las letras de canciones te dan acceso a la sonoridad de las palabras, acentos y te ayudan a aprender como pronunciar el inglés de manera correcta.
+                Lee libros, ya sea ficción o no ficción, leer libros en inglés, desde historietas a los clásicos de la literatura inglesa, adquirirás vocabulario y gramática.  </p>
+              <div class="overlay">
+                <p>Estrategias para el aprendizaje de la Lengua Inglesa</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/ptonunciation.webp" alt="Proyecto 5">
+              <p> Descaraga aplicaciones de Fónetica como "Accent Hero" esta te muestra todos los fonemas utilizados en el idioma con sus respectivos sonidos y pronunciaciones, tiene funciones para grabar tu voz y calificarte del 0% al 100% deacuerdo a como lo digas, al igual que tiene ejercicios para realizar, entre otros.  </p>
+              <div class="overlay">
+                <p>Tips para mejorar la pronunciación...</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/alumnos.png" alt="Proyecto 6">
+              <p>Vincular los contenidos con el entorno cotidiano de los estudiantes, para que puedan relacionar el idioma con su realidad.
+                Cambiar el enfoque de las clases por objetivos más atractivos, que motiven a los alumnos a participar y comunicarse en inglés.
+                Fomentar el trabajo colaborativo y el intercambio de experiencias entre los estudiantes y los docentes. </p>
+              <div class="overlay">
+                <p>Estrategias para enseñar el idioma Inglés</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://www.papora.com/es/aprender-ingles/importancia/#:~:text=Razones%20por%20las%20que%20debes%20estudiar%20ingl%C3%A9s%201,8.%20El%20ingl%C3%A9s%20es%20cool%20...%20M%C3%A1s%20elementos" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más puntos de vista...
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Artículos</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.youtube.com/watch?v=JuFBtVFbtkA" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Aprender pronunciación
+            </li>
+          </a>
+          <a href="https://verbos-irregulares-ingles.com/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Lista de verbos irregulares
+            </li>
+          </a>
+          <a href="https://www.ef.com.mx/blog/language/10-ventajas-de-aprender-un-idioma/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Ventajas de aprender un nuevo idioma
+            </li>
+          </a>
+          <a href="http://utsem.edu.mx/ut/Oferta_educativa_2020/LENGUA_INGLESA_2020.pdf" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Estudiar Lengua Inglesa UTSEM
+            </li>
+          </a>
+          <a href="https://blog.pearsonlatam.com/ingles-para-todos/estrategias-para-ensenar-ingles-en-tu-escuela" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Estrategias de enseñanza de la Lengua Inglesa
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Mi proceso en formación</h2>
+      <h3 class="seccion-descripcion">Aquí verás imagenes de mi experiencia estudiando LIN.</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/expo ciencias.jpg" alt="primero">
+              <p class="testimonio-texto">Expo ciencias 2023 </p>
+              <div class="testimonio-info">
+                <p class="cliente">Coacalco Edo Mex</p>
+                <p class="cargo">Presentación de proyecto.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/feria ut.jpg" alt="segundo">
+              <p class="testimonio-texto">Feria de la ciencia</p>
+              <div class="testimonio-info">
+                <p class="cliente">UTSEM</p>
+                <p class="cargo">Presentación de material didáctico en Inglés</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/practica dc.jpg" alt="tercero">
+              <p class="testimonio-texto">Práctica docente </p>
+              <div class="testimonio-info">
+                <p class="cliente">Escuela primaria Leona Vicario</p>
+                <p class="cargo">Realización de una clase de Inglés a niños de 6to grado</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+             Contactame y podemos compartir conversaciones acerca del idioma Inglés
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="jacqueline20004@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/kelin.jpg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">La confianza en uno mismo es el secreto del éxito.<br>Cree en ti.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor" > Adaptado por Jacqueline Torres </div>
+      
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
